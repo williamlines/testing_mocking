@@ -21,6 +21,3 @@ class TimeError
     return DateTime.parse(json["utc_datetime"]).to_time
   end
 end
-
-# error = TimeError.new(Net::HTTP)
-# error.error

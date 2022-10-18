@@ -1,6 +1,4 @@
 require "time_error"
-require "json"
-require "net/http"
 
 RSpec.describe TimeError do
   it "calls an api to return server time difference" do
